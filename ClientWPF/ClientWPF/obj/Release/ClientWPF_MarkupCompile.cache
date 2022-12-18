@@ -1,0 +1,20 @@
+﻿ClientWPF
+
+
+winexe
+C#
+.cs
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\WpfApp1\obj\Release\
+ClientWPF
+none
+false
+TRACE
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\WpfApp1\App.xaml
+151672099350
+21732793768
+28-1437546955
+1411748277050
+AddFlightWindow.xaml;AllFlightsWindow.xaml;AllOrdersWindow.xaml;AllUsersWindow.xaml;ChoosePlaceWindow.xaml;EditFlightWindow.xaml;FlightsListWindow.xaml;GetUserReservation.xaml;Login.xaml;MainAdminWindow.xaml;MainUserWindow.xaml;Registration.xaml;SearchFlights.xaml;TemplateWindow.xaml;UserInformationWindow.xaml;
+
+True
+
