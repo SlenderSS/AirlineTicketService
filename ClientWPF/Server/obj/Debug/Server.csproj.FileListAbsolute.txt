@@ -44,3 +44,7 @@ C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія п
 C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\bin\Debug\Server.exe.manifest
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\bin\Debug\Server.application
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\obj\Debug\Server.exe.manifest
+C:\Users\s2a0s\Desktop\3 курс\5 семестр(СПР)\Інженерія програмного забезпечення\Project\ClientWPF\Server\obj\Debug\Server.application

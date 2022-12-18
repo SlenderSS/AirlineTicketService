@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/System" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:22344/?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Server" />
+  <xs:import schemaLocation="http://localhost:22344/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="http://localhost:22344/?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/Server.Models" />
+  <xs:import schemaLocation="http://localhost:22344/?xsd=xsd2" namespace="ServiceModels" />
+  <xs:complexType name="ValueTupleOfArrayOfFlightstringfWEKCBN5">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ValueTupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfFlight" Namespace="http://schemas.datacontract.org/2004/07/Server" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Server" name="Item1" nillable="true" type="q1:ArrayOfFlight" />
+      <xs:element name="Item2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValueTupleOfArrayOfFlightstringfWEKCBN5" nillable="true" type="tns:ValueTupleOfArrayOfFlightstringfWEKCBN5" />
+  <xs:complexType name="ValueTupleOfArrayOfOrderstringwwCRYwRO">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ValueTupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfOrder" Namespace="http://schemas.datacontract.org/2004/07/Server.Models" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Server.Models" name="Item1" nillable="true" type="q2:ArrayOfOrder" />
+      <xs:element name="Item2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValueTupleOfArrayOfOrderstringwwCRYwRO" nillable="true" type="tns:ValueTupleOfArrayOfOrderstringwwCRYwRO" />
+  <xs:complexType name="ValueTupleOfArrayOfUserstringwzsIjUur">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ValueTupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfUser" Namespace="ServiceModels" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q3="ServiceModels" name="Item1" nillable="true" type="q3:ArrayOfUser" />
+      <xs:element name="Item2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValueTupleOfArrayOfUserstringwzsIjUur" nillable="true" type="tns:ValueTupleOfArrayOfUserstringwzsIjUur" />
+  <xs:complexType name="ValueTupleOfArrayOfCitystringwwCRYwRO">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ValueTupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfCity" Namespace="http://schemas.datacontract.org/2004/07/Server.Models" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Server.Models" name="Item1" nillable="true" type="q4:ArrayOfCity" />
+      <xs:element name="Item2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValueTupleOfArrayOfCitystringwwCRYwRO" nillable="true" type="tns:ValueTupleOfArrayOfCitystringwwCRYwRO" />
+  <xs:complexType name="ValueTupleOfArrayOfPlacestringfWEKCBN5">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ValueTupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfPlace" Namespace="http://schemas.datacontract.org/2004/07/Server" />
+          <GenericParameter Name="string" Namespace="http://www.w3.org/2001/XMLSchema" />
+        </GenericType>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Server" name="Item1" nillable="true" type="q5:ArrayOfPlace" />
+      <xs:element name="Item2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ValueTupleOfArrayOfPlacestringfWEKCBN5" nillable="true" type="tns:ValueTupleOfArrayOfPlacestringfWEKCBN5" />
+</xs:schema>

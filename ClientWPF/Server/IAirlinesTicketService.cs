@@ -28,46 +28,46 @@ namespace Server
         string UpdateUserInformation(User user);
 
         [OperationContract]
-        Flight[] GetAllFlights();
+        (Flight[],string) GetAllFlights();
 
         [OperationContract]
-        Order[] GetAllOrders();
+        (Order[], string) GetAllOrders();
 
         [OperationContract]
-        User[] GetAllUsers();
+        (User[], string) GetAllUsers();
 
         [OperationContract]
         string AddNewFlight(Flight flight);
 
         [OperationContract]
-        Flight[] DeleteFlight(Flight flight);
+        (Flight[], string) DeleteFlight(Flight flight);
 
         [OperationContract]
         string UpdateFlight(Flight flight);
 
         [OperationContract]
-        User[] DeleteUser(User user);
+        (User[], string) DeleteUser(User user);
 
         [OperationContract]
-        City[] GetAllCities();
+        (City[], string) GetAllCities();
 
         [OperationContract]
-        Flight[] GetFlights(Flight flight);
+        (Flight[], string) GetFlights(Flight flight);
         
         [OperationContract]
-        Place[] GetPlaces(Flight flight);
+        (Place[], string) GetPlaces(Flight flight);
 
         [OperationContract]
-        Order[] GetUserReservation(User user);
+        (Order[], string) GetUserReservation(User user);
 
         [OperationContract]
-        Order[] CancelReservation(Order order);
+        (Order[], string) CancelReservation(Order order);
 
         [OperationContract]
         (Place[], string) ReservePlace(User user, Place place);
 
         [OperationContract]
-        Order[] BuyTicket(Order order);
+        (Order[], string) BuyTicket(Order order);
       
     }
 }
